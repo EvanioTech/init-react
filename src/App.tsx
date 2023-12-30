@@ -1,27 +1,22 @@
 import { Card } from "./components/Card";
-import { Footer } from "./components/Footer";
-import { Header } from "./components/Header";
+import { Layout } from "./components/Layout";
 
 function App() {
   return (
-    <>
-    
-    <div>
-    <Header />
+    <Layout>
+
     hello world
-    <Card id={1}
-    paragraph="typescript"
-    details="TS pra front and back" />
-    <Card id={2}
-    paragraph="HTML"
-    details="HTML para frontend "
-    />
+        <Card id={1}
+        paragraph="typescript"
+        details="TS pra front and back" />
+        
+        <Card id={2}
+        paragraph="HTML"
+        details="HTML para frontend " />
     
     
-     </div> 
     
-    <Footer/>
-    </>
+      </Layout>
   );
 }
 
