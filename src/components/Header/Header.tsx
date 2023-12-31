@@ -1,8 +1,8 @@
+import './Header.css'
 export const Header = () =>{
     return(
         <div>
-            Header
-            Menu
+            Dio Bank
         </div>
     )
 }
