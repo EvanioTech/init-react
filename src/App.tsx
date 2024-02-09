@@ -1,4 +1,5 @@
 
+import { useState } from "react";
 import { Layout } from "./components/Layout";
 import { Box, Button, Center, ChakraProvider,
   Input,
@@ -7,6 +8,7 @@ import { Box, Button, Center, ChakraProvider,
 
 
 function App() {
+  const [ value, setValue ] =useState(0)
   return (
     <ChakraProvider>
       
@@ -23,7 +25,9 @@ function App() {
         </Button>
       </Center>
       </Box>
+      
       </Box>
+      
       
       
       
